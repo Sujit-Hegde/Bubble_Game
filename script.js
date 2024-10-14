@@ -8,7 +8,7 @@ function make_bubble() {
         var ran1 = Math.floor(Math.random() * 10);
         a += `<div class="bubble">${ran1}</div>`;
     }
-    panelbottom.innerHTML = s;
+    panelbottom.innerHTML = a;
 
 }
 function Set_timer() {
